@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Flat button example*/
+
+.button-nav{
+  display: inline-block;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  border: 1px solid;
+  padding: .8rem 1rem;
+  color: rgba(0,0,0 ,.8);
+}
+
+.button-nav:hover{
+  background-color: rgba(0,0,0 ,1);
+  color: rgba(255,255,255 ,1);
+  transition: background-color .15s ease-in-out;
+}
+
+/* transition-property: proprietatea cãreia ar trebui sã i se aplice efectul de tranzi?ie (în acest caz, background-color) */
+
+/*transition-duration: durata anima?iei (în acest caz, .15s)*/
+
+/*transition-timing-function: curba de vitezã a efectului (în acest caz, ease-in-out creeazã o anima?ie cu un început ?i sfâr?it lent).*/
